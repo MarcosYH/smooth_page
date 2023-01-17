@@ -12,7 +12,7 @@ class page1 extends StatelessWidget {
         child: ClipRRect(
           borderRadius: BorderRadius.circular(20),
           child: Container(
-            child: Image.asset("assets/images/ui1.png",scale: 0.1,),
+            child: Image.asset("assets/images/ui0.png",),
             //color: Colors.blue,
           ),
         ),
