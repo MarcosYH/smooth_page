@@ -13,7 +13,7 @@ class page1 extends StatelessWidget {
             children: <Widget> [
               Pinned.fromPins(
                 Pin(start: 0.0, end: 0.0),
-                Pin(size: 406.0, start: 0.0),
+                Pin(size: 470.0, start: 0.0),
                 child: Container(
                   decoration: BoxDecoration(
                     color: const Color(0xff6c80fe),
@@ -36,7 +36,7 @@ class page1 extends StatelessWidget {
 
               Pinned.fromPins(
                 Pin(size: 310.0, end: -144.0),
-                Pin(size: 310.0, middle: 0.3586),
+                Pin(size: 310.0, middle: 0.43),
                 child: Container(
                   decoration: BoxDecoration(
                     color: const Color(0xffbaf85f),
