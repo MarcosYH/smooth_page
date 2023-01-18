@@ -9,24 +9,15 @@ class page1 extends StatelessWidget {
       backgroundColor: Colors.transparent,
       body: Container(
         child: ClipRRect(
-          borderRadius: BorderRadius.circular(20),
           child:Stack(
             children: <Widget> [
               Pinned.fromPins(
                 Pin(start: 0.0, end: 0.0),
                 Pin(size: 406.0, start: 0.0),
                 child: Container(
-
                   decoration: BoxDecoration(
                     color: const Color(0xff6c80fe),
-                    borderRadius: BorderRadius.circular(20.0),
-                    boxShadow: [
-                      BoxShadow(
-                        color: const Color(0x1f000000),
-                        offset: Offset(0, 15),
-                        blurRadius: 30,
-                      ),
-                    ],
+
                   ),
                 ),
               ),// Couleur bleu en fond
@@ -69,7 +60,7 @@ class page1 extends StatelessWidget {
 
               Pinned.fromPins(
                 Pin(start: -74.8, end: -74.8),
-                Pin(size: 450, middle: 0.5),
+                Pin(size: 450, middle: 0.6),
                 child: Image.asset("assets/images/voiture_white.png",),
               ), // Positionnement de l'image de la voiture
 
