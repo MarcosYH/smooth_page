@@ -56,7 +56,7 @@ class page1 extends StatelessWidget {
               ),//Positionnement de la couleur vert façon là
               Pinned.fromPins(
                 Pin(size: 177.0, middle: 0.5),
-                Pin(size: 133.0, start: 50),
+                Pin(size: 133.0, start: 30),
                 child: Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
