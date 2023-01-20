@@ -13,7 +13,7 @@ class page3 extends StatelessWidget {
             children: <Widget> [
 
               Pinned.fromPins(
-                Pin(size: 310.0, start: -123.0),
+                Pin(size: 310.0, start: -140.0),
                 Pin(size: 310.0, start: -120.0),
                 child: Container(
                   decoration: BoxDecoration(
@@ -23,6 +23,17 @@ class page3 extends StatelessWidget {
                   ),
                 ),
               ),//positionnement de la couleur en haut à gauche
+              Pinned.fromPins(
+                Pin(size: 310.0, end: -144.0),
+                Pin(size: 310.0, middle: 0.43),
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: const Color(0xffbaf85f),
+                    borderRadius:
+                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
+                  ),
+                ),
+              ),//Positionnement de la couleur vert façon là
 
               Pinned.fromPins(
                 Pin(size: 177.0, middle: 0.5),
