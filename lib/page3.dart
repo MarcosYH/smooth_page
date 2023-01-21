@@ -48,12 +48,37 @@ class page3 extends StatelessWidget {
                   ),
                 ),
               ),
+              Align(
+                alignment: Alignment(-0.100, -0.496),
+                child: SizedBox(
+                  width: 125.0,
+                  height: 70.0,
+                  child: Text.rich(
+                    TextSpan(
+                      style: TextStyle(
+                        fontFamily: 'Montserrat',
+                        fontSize: 20,
+                        color: const Color(0xff000000),
+                      ),
+                      children: [
+                        TextSpan(
+                          text: 'Rental Cars',
+                          style: TextStyle(
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),//Nom de l'app
 
               Pinned.fromPins(
                 Pin(start: -74.8, end: -74.8),
                 Pin(size: 300, middle: 0.4),
                 child: Image.asset("assets/images/page3_2.png",),
               ), // Positionnement de l'image de la voiture
+
 
             ],
         ),
