@@ -57,6 +57,30 @@ class page2 extends StatelessWidget {
                   ),
                 ),
               ),
+              Align(
+                alignment: Alignment(-0.100, -0.55),
+                child: SizedBox(
+                  width: 125.0,
+                  height: 70.0,
+                  child: Text.rich(
+                    TextSpan(
+                      style: TextStyle(
+                        fontFamily: 'Montserrat',
+                        fontSize: 23,
+                        color: const Color(0xff000000),
+                      ),
+                      children: [
+                        TextSpan(
+                          text: 'Rental Cars',
+                          style: TextStyle(
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),//Nom de l'app
 
               Pinned.fromPins(
                 Pin(start: -250, end: -15),
